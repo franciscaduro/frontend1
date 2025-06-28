@@ -1,0 +1,135 @@
+/* Fundo geral da página */
+body {
+  background-color: #d0f0d0; /* verde claro */
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.linha {
+  display: flex;
+  gap: 20px; /* Espaço entre os campos */
+  margin-bottom: 15px;
+}
+
+.campo {
+  flex: 1; /* Faz com que cada campo ocupe metade do espaço */
+}
+
+
+/* Caixa branca central */
+.container {
+  background-color: #fff; /* branco */
+  border-radius: 10px; /* bordas arredondadas */
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto; /* centra a caixa */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* leve sombra */
+}
+
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 17px;
+}
+
+label {
+  font-size: 13px;        /* Tamanho da letra */
+}
+
+
+/* Inputs e selects */
+input, select, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input {
+    height: 30px;
+    font-size: 13px;
+}
+select {
+  height: 30px;
+  padding: 4px 8px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+/* Botões */
+button {
+  background-color: #7dc27f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Mensagem de sucesso */
+#mensagem {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Resultados da pesquisa */
+#resultadoPesquisa div {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Botões editar e eliminar dentro do resultado */
+#resultadoPesquisa button {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Bloco de confirmação de eliminação */
+#confirmarEliminacao {
+  background-color: #fff3cd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Botões de Editar e Eliminar na mesma linha */
+.botoes {
+  display: flex;
+  gap: 10px; /* espaço entre os botões */
+  margin-top: 5px;
+}
+
+/* Estilo para botões de Editar e Eliminar */
+
+
+button.eliminar {
+  background-color: #f44336;
+}
+
+button.eliminar:hover {
+  background-color: #d32f2f;
+}
+
+#botaoConfirmarEliminacao {
+ background-color: #f44336;
+}
+
+#botaoConfirmarEliminacao:hover {
+ background-color: #d32f2f;
+}
