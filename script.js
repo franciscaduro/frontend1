@@ -1,5 +1,5 @@
-const API_URL = 'http://localhost:3000/alunos';
-const CURSOS_URL = 'http://localhost:3000/cursos';
+const API_URL = 'https://backend1-6o86.onrender.com/api/alunos';
+const CURSOS_URL = 'https://backend1-6o86.onrender.com/api/cursos';
 
 
 let idParaEliminar = null;
